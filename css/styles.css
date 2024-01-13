@@ -139,7 +139,7 @@ button{
 
     html,body{
         position: relative;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     body{
