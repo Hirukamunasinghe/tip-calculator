@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+        <h2 class="heading">SPLI<br>TTER</h2>
+        <div class="card">
+            <!-- textContent -->
+            <div class="textContent">
+                <p class="bill-para">Bill</p>
+                <input placeholder="$                          0" type="text" id="text" name="text" class="bill">
+                <p class="tip-para">Select Tip %</p>
+                <div class="buttons-div">
+                    <button class="cal-btn">5%</button>
+                    <button class="cal-btn">10%</button>
+                    <button class="cal-btn">15%</button>
+                    <button class="cal-btn">25%</button>
+                    <button class="cal-btn">50%</button>
+                    <button class="cal-btn"><input class="btn-input" type="text" placeholder="  CUSTOM"></button>
+                </div>
+                <p class="ppl-para">Number of people</p>
+                <input placeholder="no.of people" class="number-of-people">
+            </div>
+            <!-- Calculator part -->
+            <div class="calContent">
+                <div class="cal-card">
+                    <div class="tip-div">
+                        <p>Tip Amount <br>/person</p>
+                        <h3 class="tip-heading">$0.00</3>
+                    </div>
+                    <div class="total-div">
+                        <p class="total-para">Total<br>/person</p>
+                        <h3 class="total-heading">$0.00</h3>
+                    </div>
+                    <div class="reset-div">
+                    <button class="reset-btn">RESET</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- app.js -->
+    <script src="app.js"></script>
+</body>
+</html>

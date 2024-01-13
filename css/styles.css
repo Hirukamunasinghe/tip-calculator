@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+}
+
+body{
+    background-color: hsl(185, 41%, 84%)
+}
+
+.container{
+    height: 100vh;
+    background-color: hsl(185, 41%, 84%);
+}
+
+/* textContentStyling  */
+.textContent{
+    margin-left: 20px;
+}
+
+.bill-para{
+    margin-top: 20px;
+}
+
+.bill{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+.ppl-para{
+    margin-top: 20px;
+}
+
+.number-of-people{
+    margin-top: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+.tip-para{
+    margin-top: 10px;
+}
+
+.buttons-div{
+    margin-top: 20px;
+}
+
+.heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.card{
+    margin: auto;
+    height: 400px;
+    width: 800px;
+    display: grid;
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.buttons-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    max-width: 1000px;
+}
+
+.cal-btn{
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+.btn-input{
+    width: 90px;
+}
+
+
+/* Calculator Styling */
+.cal-card{
+    background-color: hsl(183, 100%, 15%);
+    height: 350px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+
+.tip-div{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.total-div{
+    display: flex;
+    justify-content: center;
+    gap: 105px;
+    color: white;
+    margin-top: 15px;
+    margin-top: 40px;
+}
+
+.total-heading{
+    margin-right: -20px;
+}
+
+.reset-div{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 80px;
+}
+
+.reset-btn{
+    width: 200px;
+    height: 30px;
+    margin: auto;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* responsive */
+@media (max-width:1000px){
+
+    html,body{
+        position: relative;
+        overflow: hidden;
+    }
+
+    body{
+        position: relative;
+    }
+
+    .card{
+        grid-template-columns: 1fr;
+        width: 300px;
+        place-items: center;
+     
+    }
+
+    .cal-card{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    .textContent{
+        margin-left: 0px;
+        text-align: center;
+    }
+}
