@@ -148,7 +148,7 @@ button{
 
     .card{
         grid-template-columns: 1fr;
-        width: 300px;
+        width: 301px;
         place-items: center;
      
     }
